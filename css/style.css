@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 1vw;
+    box-sizing: border-box;
+    font-weight: 900;
+    color: rgb(7, 77, 84);
+}
+.foto img {
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    filter: blur(0.05rem);
+    transform: scale(1);
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);
+
+}
+
+.container {
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);
+    width: 80%;
+    margin: 2rem auto;
+   }
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 5fr 5fr;
+    grid-template-rows: 3fr 1fr 3fr 1fr 3fr 1fr 3fr;
+    grid-template-areas:
+    "foto naam naam"
+    "over erv erv"
+    "over tekst1 tekst2"
+    "over skil skil"
+    "over tekst3 tekst4"
+    "info projects projects"
+    "info tekst5 tekst6";
+background-color: rgb(7, 77, 84);
+    box-shadow: 4px 7px 10px 1px rgba(0, 0, 0, 0.75);}
+
+.foto {
+    grid-area: foto;
+    /*box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);*/
+}
+
+
+
+
+.naam {
+    grid-area: naam;
+    padding: 5rem 0rem 0rem 0rem;
+    /*box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);*/
+    }
+
+.over {
+    grid-area: over;
+    background-color: #E5E5DA;
+    padding: 5rem 3rem 0rem 3rem;
+    text-align: left;
+    border-left: 0.25rem solid #e94b35;
+    margin-left: 2rem;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+
+.info {
+    grid-area: info;
+    background-color: #E5E5DA;
+    padding: 5rem 3rem 0rem 3rem;
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+
+.erv {
+    grid-area: erv;
+    background-color: #e8bfc1;
+    padding-top: 5em;
+    text-align: center;
+    margin-right: 2rem;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+
+
+.tekst1 {
+    grid-area: tekst1;
+    background-color: #E8BFC1;
+    padding: 1rem 0rem 0rem 3rem;
+    text-align: left;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);
+}
+
+.tekst2 {
+    grid-area: tekst2;
+    background-color: #E8BFC1;
+    padding: 1rem 3rem 0rem 3em;
+    text-align: left;
+    margin-right: 2rem;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+
+.skil {
+    grid-area: skil;
+    background-color: #E8BFC1;
+    padding-top: 2rem;
+    text-align: center;
+    margin-right: 2rem;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+
+.tekst3 {
+    grid-area: tekst3;
+    background-color: #E8BFC1;
+    padding: 1rem 0rem 0rem 3rem;
+    text-align: left;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+
+.tekst4 {
+    grid-area: tekst4;
+    background-color: #E8BFC1;
+    padding: 1rem 3rem 0rem 3em;
+    text-align: left;
+    margin-right: 2rem;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+
+.projects {
+    grid-area: projects;
+    background-color: #E8BFC1;
+    padding-top: 5em;
+    text-align: center;
+    margin-right: 2rem;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+
+.tekst5 {
+    grid-area: tekst5;
+    background-color: #E8BFC1;
+    padding: 1rem 0rem 0rem 3rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+.tekst6 {
+    grid-area: tekst6;
+    background-color: #E8BFC1;
+    padding: 1rem 3rem 0rem 3em;
+    text-align: left;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 4px 7px 10px 1px rgba(0,0,0,0.75);}
+
+h1, h2, h3, h4 {
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+    color: #E5E5DA;
+}
+
+
+h2 {
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+
+h3 {
+    color: #E8BFC1;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+h4{
+    font-size:1.1rem ;
+    color: rgb(7, 77, 84);
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.over .lede {
+    color: rgba(233, 51, 31, 0.98);
+
+
+}
